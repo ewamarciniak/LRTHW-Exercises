@@ -7,6 +7,7 @@ puts "Do you like me #{user}?"
 print prompt
 likes = STDIN.gets.chomp()
 
+puts "dodatkowa linija"
 puts "Where do you live #{user}?"
 print prompt
 lives = STDIN.gets.chomp()
@@ -20,3 +21,4 @@ Alright, so you said #{likes} about liking me.
 You live in #{lives}.  Not sure where that is.
 And you have a #{computer} computer.  Nice.
 MESSAGE
+#additionsl comment
